@@ -1,0 +1,11 @@
+@sun_image.draw(320,320, ZOrder::Background)
+@mercury_image.draw(380, 320, ZOrder::Background)
+@venus_image.draw(440, 320, ZOrder::Background)
+@earth_image.draw(500, 320, ZOrder::Background)
+@mars_image.draw(560, 320, ZOrder::Background)
+
+@sun_image = Gosu::Image.new("images/sun.png", tileable: true)
+@mercury_image = Gosu::Image.new("images/mercury.png", tileable: true)
+@venus_image = Gosu::Image.new("images/venus.png", tileable: true)
+@earth_image = Gosu::Image.new("images/earth.png", tileable: true)
+@mars_image = Gosu::Image.new("images/mars.png", tileable: true)
