@@ -1,4 +1,5 @@
 require "gosu"
+require_relative "z_order"
 
 class Planets
   attr_reader :x_pos, :y_pos, :x_vel, :y_vel, :mass, :force_x, :force_y, :planet_image
